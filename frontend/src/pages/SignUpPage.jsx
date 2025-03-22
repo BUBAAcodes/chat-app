@@ -69,7 +69,7 @@ const SignUpPage = () => {
                   className={
                     "input input-bordered w-full pl-10 focus:outline-none"
                   }
-                  placeholder="Sanskar Singh"
+                  placeholder="Rishit singh"
                   value={formData.fullName}
                   onChange={(e) =>
                     setFormData({ ...formData, fullName: e.target.value })
@@ -91,7 +91,7 @@ const SignUpPage = () => {
                   className={
                     "input input-bordered w-full pl-10 focus:outline-none"
                   }
-                  placeholder="sanskar@example.com"
+                  placeholder="rishit@example.com"
                   value={formData.email}
                   onChange={(e) =>
                     setFormData({ ...formData, email: e.target.value })
